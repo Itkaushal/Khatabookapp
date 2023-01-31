@@ -1,0 +1,23 @@
+ <LinearLayout
+     android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".main6"
+     android:background="@drawable/background_intro"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<SearchView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/sv_customer"
+    android:iconifiedByDefault="false"
+    android:queryHint="Search Customer Name"
+    android:layout_marginTop="5dp"
+    />
+<ListView
+android:visibility="invisible"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:id="@+id/lv_customer"
+    />
+    </LinearLayout>

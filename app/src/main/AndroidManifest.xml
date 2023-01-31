@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.kaushal.myhisaab">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/admin"
+        android:label="My Settlement"
+        android:roundIcon="@drawable/customer"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyHisaab"
+        tools:targetApi="31">
+        <activity
+            android:name=".CreditDebit"
+            android:exported="false" />
+        <activity
+            android:name=".MyProfile"
+            android:exported="false" />
+        <activity
+            android:name=".ChangePasword"
+            android:exported="false" />
+        <activity
+            android:name=".AddCustomer"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Splash2"
+            android:exported="false" />
+        <activity
+            android:name=".updateprofile"
+            android:exported="false" />
+        <activity
+            android:name=".TermAndCondition"
+            android:exported="false" />
+        <activity
+            android:name=".MyCustomer"
+            android:exported="false" />
+        <activity
+            android:name=".TransactionHistory"
+            android:exported="false" />
+        <activity
+            android:name=".Printinvoice"
+            android:exported="false" />
+        <activity
+            android:name=".signUp"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".main6"
+            android:exported="false" />
+        <activity
+            android:name=".main3"
+            android:exported="false" />
+        <activity
+            android:name=".main2"
+            android:exported="false" />
+        <activity
+            android:name=".main4"
+            android:exported="false" />
+        <activity
+            android:name=".main1"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

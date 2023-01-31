@@ -1,0 +1,48 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+tools:context="."
+    android:background="@drawable/background_intro"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/image_addc"
+        android:background="@drawable/customer"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="80dp"
+        android:hint="Enter Customer name:"
+        android:textSize="25dp"
+        android:id="@+id/et_ac1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Enter Customer email:"
+        android:textSize="25dp"
+        android:id="@+id/et_ac2"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Enter Customer mobile:"
+        android:textSize="25dp"
+        android:id="@+id/et_ac3"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="Enter Customer address..."
+        android:textSize="25dp"
+        android:id="@+id/et_ac4"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Add"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:onClick="createcustomer:"
+        tools:ignore="onClick"/>
+
+</LinearLayout>

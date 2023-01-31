@@ -1,0 +1,624 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".TransactionHistory"
+    android:background="@drawable/background_intro"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+       >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/admin" />
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="130dp"
+            android:src="@drawable/leftarrow" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:text="ashis Rathaur"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"
+            android:text="XXX-XXX-3653"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="130dp"
+            android:text="300"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="37dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="130dp"
+            android:text="$"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="225dp"
+            android:layout_marginTop="130dp"
+            android:text="Credit"
+            android:textColor="#D81B1B"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+    </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff"
+            android:elevation="20dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/admin" />
+            </androidx.cardview.widget.CardView>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="130dp"
+                android:src="@drawable/rightarrow" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="20dp"
+                android:text="Kaushlendra"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="50dp"
+                android:text="XXX-XXX-1836"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="130dp"
+                android:text="160"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="130dp"
+                android:text="$"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="130dp"
+                android:text="Debit"
+                android:textColor="#1FC122"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:elevation="20dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/admin" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff"
+            android:elevation="20dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/admin" />
+            </androidx.cardview.widget.CardView>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="130dp"
+                android:src="@drawable/leftarrow" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="20dp"
+                android:text="Yash kumar"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="50dp"
+                android:text="XXX-XXX-2832"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="130dp"
+                android:text="100"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="37dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="130dp"
+                android:text="$"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="225dp"
+                android:layout_marginTop="130dp"
+                android:text="Credit"
+                android:textColor="#D81B1B"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="130dp"
+            android:src="@drawable/rightarrow" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:text="Annu Kumari"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"
+            android:text="XXX-XXX-1211"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="130dp"
+            android:text="650"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="130dp"
+            android:text="$"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="130dp"
+            android:text="Debit"
+            android:textColor="#1FC122"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff"
+            android:elevation="20dp"
+           >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/admin" />
+            </androidx.cardview.widget.CardView>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="130dp"
+                android:src="@drawable/leftarrow" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="20dp"
+                android:text="Ajay Prajapati"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="50dp"
+                android:text="XXX-XXX-3653"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="130dp"
+                android:text="900"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="37dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="130dp"
+                android:text="$"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="225dp"
+                android:layout_marginTop="130dp"
+                android:text="Credit"
+                android:textColor="#D81B1B"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:elevation="20dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/admin" />
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="130dp"
+            android:src="@drawable/rightarrow" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:text="HariShankar"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"
+            android:text="XXX-XXX-4852"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="130dp"
+            android:text="500"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="130dp"
+            android:text="$"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="130dp"
+            android:text="Debit"
+            android:textColor="#1FC122"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:elevation="20dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/admin" />
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="130dp"
+            android:src="@drawable/leftarrow" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:text="Ankit Pal"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"
+            android:text="XXX-XXX-9568"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="130dp"
+            android:text="800"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="37dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="130dp"
+            android:text="$"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="225dp"
+            android:layout_marginTop="130dp"
+            android:text="Credit"
+            android:textColor="#D81B1B"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:elevation="20dp"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/admin" />
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="130dp"
+            android:src="@drawable/rightarrow" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:text="Shailendra"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"
+            android:text="XXX-XXX-3653"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="130dp"
+            android:text="600"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="130dp"
+            android:text="$"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="130dp"
+            android:text="Debit"
+            android:textColor="#1FC122"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

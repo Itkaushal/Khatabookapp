@@ -1,0 +1,51 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".main2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:background="@drawable/background_intro"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="Welcome To My App"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/background2"
+        android:gravity="center"
+        android:onClick="Login"
+        android:text="Login"
+        android:textColor="#FBFBFB"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="560dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:onClick="signIn"
+        android:text="SignUp"
+        android:textColor="#FF5E00"
+        android:textSize="20dp" />
+
+</RelativeLayout>

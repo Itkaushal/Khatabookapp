@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/drawable-v24/backd.xml" value="0.105" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/drawable-v24/background2.xml" value="0.105" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/drawable-v24/border.xml" value="0.105" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/drawable-v24/enter.xml" value="0.105" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/activity_add_customer.xml" value="0.16822916666666668" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/activity_addtransaction.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/activity_admin_login.xml" value="0.17760416666666667" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/activity_admindata_sharedprefrence.xml" value="0.17760416666666667" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/activity_change_password.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/activity_change_pasword.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/activity_credit_debit.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/activity_login.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/activity_main.xml" value="0.1640625" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/activity_main2.xml" value="0.16" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/activity_main3.xml" value="0.178125" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/activity_main5.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/activity_main6.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/activity_main7.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/activity_my_customer.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/activity_my_profile.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/activity_printinvoice.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/activity_sign_up.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/activity_splash2.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/activity_term_and_condition.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/activity_termconditin.xml" value="0.1640625" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/activity_transaction_history.xml" value="0.16" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/activity_updateprofile.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/activity_user_login.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/addcustomer.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/main1.xml" value="0.15" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/main2.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/main4.xml" value="0.16" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/myHisaab/app/src/main/res/layout/profile.xml" value="0.18229166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
